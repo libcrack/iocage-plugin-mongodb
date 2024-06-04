@@ -1,0 +1,6 @@
+{
+    "servicerestart":"service mongod restart",
+    "serviceget": "/usr/local/bin/pluginget.sh",
+    "serviceset": "/usr/local/bin/pluginset.sh",
+    "options": { }
+}
