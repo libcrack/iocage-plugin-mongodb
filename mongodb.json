@@ -1,0 +1,31 @@
+{
+    "name": "mongodb",
+    "release": "13.2-RELEASE",
+    "official": false,
+    "plugin_schema": "2",
+    "artifact": "https://github.com/libcrack/iocage-plugin-mongodb",
+    "properties": {
+        "boot": 0,
+        "bpf": 1,
+        "dhcp": 1,
+        "vnet": 1
+    },
+    "devfs_ruleset": {
+        "paths": {"bpf*": null},
+        "includes": []
+    },
+    "pkgs": [
+        "databases/mongodb70",
+        "databases/mongodb-tools"
+    ],
+    "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
+    "fingerprints": {
+        "iocage-plugins": [
+            {
+                "function": "sha256",
+                "fingerprint": "b0170035af3acc5f3f3ae1859dc717101b4e6c1d0a794ad554928ca0cbb2f438"
+            }
+        ]
+    },
+    "revision": 0
+}
