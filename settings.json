@@ -2,5 +2,14 @@
     "servicerestart":"service mongod restart",
     "serviceget": "/usr/local/bin/pluginget.sh",
     "serviceset": "/usr/local/bin/pluginset.sh",
-    "options": { }
+    "options": {
+        "port": {
+            "type": "int",
+            "name": "MongoDB TCP Port",
+            "description": "Port for incoming MongoDB connections",
+            "range": "1024-32000",
+            "default": "27017",
+            "requirerestart": true
+        }
+    }
 }
