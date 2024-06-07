@@ -8,7 +8,21 @@
         "boot": 0,
         "bpf": 1,
         "dhcp": 1,
-        "vnet": 1
+        "nat": 0,
+        "vnet": 1,
+        "mac_prefix": "dead00",
+        "vnet_default_interface": "auto",
+        "vnet_interfaces": "none",
+        "allow_chflags": 1,
+        "allow_mlock": 0,
+        "allow_mount": 1,
+        "allow_quotas": 0,
+        "allow_raw_sockets": 1,
+        "allow_set_hostname": 1,
+        "allow_socket_af": 1,
+        "allow_sysvipc": 1,
+        "allow_tun": 1,
+        "allow_vmm": 0
     },
     "devfs_ruleset": {
         "paths": {"bpf*": null},
