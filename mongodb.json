@@ -1,6 +1,6 @@
 {
     "name": "MongoDB",
-    "release": "13.2-RELEASE",
+    "release": "master",
     "official": false,
     "plugin_schema": "2",
     "artifact": "https://github.com/libcrack/iocage-plugin-mongodb",
